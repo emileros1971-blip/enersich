@@ -50,3 +50,6 @@
 .dialog-close{position:absolute;right:12px;top:12px;border:0;width:38px;height:38px;background:#152a3c;color:#fff;font-size:27px;line-height:1;cursor:pointer}
 @media(max-width:980px){.video-grid,.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.video-grid,.gallery-grid{grid-template-columns:1fr}.gallery-heading{margin-top:48px}.gallery-item img{aspect-ratio:16/10}}
+
+/* Keep the complete assembly visible in its gallery thumbnail. */
+.gallery-item img[src="assets/prototype-generator-assembly.png"]{object-fit:contain}
